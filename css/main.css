@@ -1,12 +1,15 @@
 /* page(1) */
 .container {
     margin: 50px;
+    width: auto;
     /* border: solid 2px black; */
 }
 
 body {
     font-family: "Open Sans", sans-serif;
     color: #444;
+   
+
 }
 
 .navigation {
@@ -14,6 +17,14 @@ body {
     font-size: 25px;
     background-attachment: fixed;
     justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #fff;
 }
 
 .navi-r a {
@@ -31,9 +42,9 @@ body {
 .navi-l ul li a {
     text-decoration: none;
     padding: 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Open Sans", sans-serif;
-    color: #1f3548;
+    color: rgb(31, 53, 72);
 
 }
 
@@ -70,8 +81,8 @@ body {
 }
 
 .para1 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 26px;
     margin-top: 30px;
     padding-bottom: 30px;
 }
@@ -224,16 +235,16 @@ text {
 }
 
 .warp1 {
-    width: 459px;
+    width: 465px;
     height: 370px;
 }
 
 .paragraph1 {
     padding-left: 50px;
-    padding-top: 30px;
-    font-size: 22px;
-    color: #aaaaaa;
-    line-height: 30px;
+    padding-top: 15px;
+    font-size: 17px;
+    color: rgb(170, 170, 170);
+    line-height: 21px;
 
 }
 
@@ -245,12 +256,11 @@ text {
 }
 
 .number1 {
-    font-size: 28px;
+    font-size: 29px;
     font-weight: 400;
-    opacity: 0.7;
     padding-left: 50px;
     padding-top: 15px;
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 .contain-flex {
@@ -340,15 +350,15 @@ text {
 /* page(4) */
 
 .para-page4 {
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px;
-    line-height: 25px;
+    /* line-height: 25px; */
     color: #343a40;
 }
 
 .para-page41 {
     color: #343a40;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -390,7 +400,7 @@ text {
 
 
 .portfolio-flex-item {
-    width: 30%;
+    width: 29%;
     margin: 20px;
 }
 
@@ -416,7 +426,6 @@ text {
     transform: scale(1.2);
 
 }
-
 
 .portfolio-overlay {
     position: absolute;
@@ -901,7 +910,7 @@ textarea{
     width: 99%;
     margin-top: 20px;
     font-size: 18px;
-    font-family: inherit
+    font-family: inherit;
 }
 
 textarea:focus{
@@ -1132,7 +1141,7 @@ outline-color: #428bca;
 }
 
 .last-page-form-name{
-    height: 30px;
+    height: 42px;
     width: 45%;
     margin: 0%;
 }
@@ -1143,9 +1152,33 @@ outline-color: #428bca;
     background: #428bca
 }
 
-::placeholder{
-    color: white;
+.last-sub{
+    position: absolute;
+    left: 170px;
+    bottom: 0px;
+    /* left: 20px; */
+    /* margin-left: 45%; */
+    /* margin-top: 40px; */
+    font-size: 20px;
+    padding: 12px;
+    background-color: #428bca;
+    border: none;
 }
+
+.last-form-posi{
+    position: relative;
+}
+
+.last-sub a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
 
 .fooder-container{
     width: 100%;
@@ -1166,6 +1199,4 @@ outline-color: #428bca;
     text-decoration: none;
     color:#9eccf4;
 }
-
-
 
